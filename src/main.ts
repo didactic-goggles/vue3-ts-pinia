@@ -4,8 +4,8 @@ import App from '@/App.vue'
 import router from '@/router'
 import store from '@/stores'
 import { useAuthStore } from '@/stores/auth'
-
-import '@/styles/styles.scss'
+import * as bootstrap from 'bootstrap'
+import '@/styles/index.scss'
 
 const app = createApp(App)
 app.use(store)
